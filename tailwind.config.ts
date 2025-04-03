@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        // Custom car marketplace colors
+        carblue: {
+          50: '#e6f0ff',
+          100: '#bfd7ff',
+          200: '#99beff',
+          300: '#73a5ff',
+          400: '#4d8cff',
+          500: '#1a365d', // primary blue
+          600: '#0039cc',
+          700: '#002699',
+          800: '#001366',
+          900: '#000033',
+        },
+        carred: {
+          500: '#e53e3e', // accent red
+        },
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
