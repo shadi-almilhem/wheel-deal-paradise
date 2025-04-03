@@ -24,7 +24,7 @@ const Home: React.FC = () => {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-                <Link to="/about" className="bg-transparent">
+                <Link to="/about" className="bg-transparent hover:text-white">
                   Learn More
                 </Link>
               </Button>
